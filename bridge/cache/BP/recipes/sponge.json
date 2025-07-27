@@ -1,0 +1,130 @@
+{
+	"file_path": "C:\\Users\\charl\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\sponge\\recipes\\sponge.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "eedbdc70_12d6_4584_b8e4_813d34ed6e8e",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.12.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "minecraft:sponge"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							" L ",
+							" L ",
+							" L "
+						],
+						"key": {
+							"L": {
+								"item": "minecraft:leather"
+							}
+						},
+						"result": [
+							{
+								"item": "minecraft:sponge",
+								"count": 2
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:sponge"
+						}
+					},
+					{
+						"data": "crafting_table",
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							" L ",
+							" L ",
+							" L "
+						]
+					},
+					{
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"L": {
+										"item": "minecraft:leather"
+									}
+								},
+								"key": "L",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:leather"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:sponge"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								" L ",
+								" L ",
+								" L "
+							],
+							"key": {
+								"L": {
+									"item": "minecraft:leather"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:sponge",
+									"count": 2
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "minecraft:sponge",
+										"count": 2
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:sponge",
+									"count": 2
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
